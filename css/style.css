@@ -432,48 +432,84 @@ ol {
 
 /* CONTACTO */
 
-#Contacto h1 {
+#contactos h1 {
     font-family: "Anton", sans-serif;
     font-weight: bold;
     color: #FFFFFF;
     border-bottom: #40474F solid 2px;
 }
 
-#Contactos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 10px;
-    flex-wrap: wrap;
+#contacto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-.contact-item {
-    border: #40474F solid 1px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    /* Puedes ajustar el ancho según sea necesario */
-    height: 100px;
-    /* Puedes ajustar la altura según sea necesario */
+.contacto-item {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #40474F;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: #FFFFFF;
-    text-wrap: wrap;
 }
 
-.contact-item img {
+.contacto-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+}
+
+.contacto-item a:hover {
+    text-decoration: underline;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
     margin-right: 5px;
 }
 
-.contact-item a {
-    text-decoration: none;
-    align-items: center;
-    margin-left: 5px;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+@media (max-width: 768px) {
+    #contacto {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .contacto-item {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .contacto-item a {
+        font-size: 0.9em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .icono {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto-item {
+        padding: 8px;
+    }
+
+    .contacto-item a {
+        font-size: 0.8em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .icono {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
 }
 
 /* VCT REGIONES */
