@@ -211,6 +211,8 @@ ol {
     font-size: 32px;
     font-weight: bold;
     border-bottom: #40474F solid 2px;
+    display: flex;
+    align-items: center;
 }
 
 #CHAMPIONS {
@@ -240,13 +242,16 @@ ol {
     max-height: 1000px;
     /* altura máxima para q no se exceda el tamaño */
     width: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .campeon-item p {
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.5;
-    text-align: justify;
+    text-align: justify
 }
 
 .campeon-item a {
@@ -288,17 +293,16 @@ ol {
 .imageplayers {
     width: 100%;
     height: auto;
-    border-radius: 8px;
     max-width: 150%;
     /* la imagen no se estira más de su tamaño original */
     max-height: 1000px;
     /* altura máxima para q no se exceda el tamaño */
-    width: 3%;
+    width: 35px;
 }
 
 .Player-item {
     background-color: #40474F;
-    padding: 3px;
+    padding: 15px;
     border-bottom: 1px solid #535C65;
 }
 
@@ -388,6 +392,10 @@ ol {
     color: #FFFFFF;
 }
 
+.Redes nav ul li a {
+    color: #51a1e8;
+}
+
 /* CALENDARIO */
 
 #CALENDARIO {
@@ -461,7 +469,8 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten en varias líneas si es necesario */
 }
 
 .contacto-item a:hover {
@@ -486,7 +495,8 @@ ol {
     }
 
     .contacto-item a {
-        font-size: 0.9em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+        font-size: 0.9em;
+        /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
     }
 
     .icono {
@@ -502,7 +512,8 @@ ol {
     }
 
     .contacto-item a {
-        font-size: 0.8em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+        font-size: 0.8em;
+        /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
     }
 
     .icono {
@@ -518,12 +529,10 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .vct-region {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
