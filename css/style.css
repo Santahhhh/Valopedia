@@ -20,6 +20,15 @@ header a {
 
 /*CLASES HEADER*/
 
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que la navbar esté por encima del contenido */
+    background-color: #111111 !important;
+    border-bottom: 2px solid #1A1A1A !important;
+}
+
 .fnt-fmlly {
     font-family: "Signika", sans-serif;
     font-weight: bold;
@@ -151,6 +160,12 @@ footer ul a:hover {
     align-items: center;
     margin-left: 500px;
     margin-bottom: 200px;
+}
+
+#vctframe-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -558,4 +573,10 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+    #VCT {
+        display: none
+    }
 }
