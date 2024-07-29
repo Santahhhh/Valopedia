@@ -216,7 +216,6 @@ ol {
 }
 
 #CHAMPIONS {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -231,6 +230,7 @@ ol {
     width: 300px;
     margin: 80px;
     text-align: center;
+    justify-content: center;
 }
 
 .campeon-photo img {
@@ -264,10 +264,10 @@ ol {
 }
 
 #CHAMPIONS {
-    text-align: center;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .campeones p {
@@ -394,6 +394,29 @@ ol {
 
 .Redes nav ul li a {
     color: #51a1e8;
+}
+
+.Redes h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.links-list li {
+    border: #111111 solid 2px;
+    margin: 2px;
+    background-color: #D6CECF;
+}
+
+#vlr img {
+    width: 48px;
 }
 
 /* CALENDARIO */
