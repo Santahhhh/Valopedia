@@ -1,0 +1,33 @@
+/* FOOTER */
+
+footer {
+    background-color: #111111;
+    display: flex;
+    padding: 15px;
+    border-top: 2px solid #1A1A1A;
+    justify-content: space-between;
+
+    img {
+        width: 2%;
+    }
+
+    ul {
+        list-style-type: none;
+        font-family: "Signika", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 0;
+
+        a:hover {
+            color: #FF4655;
+        }
+    }
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+
+}

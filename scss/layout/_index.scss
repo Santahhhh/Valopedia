@@ -1,0 +1,74 @@
+/* INDEX */
+
+.Inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1400px;
+
+    h1 {
+        font-family: "Anton", sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-family: "Anton", sans-serif;
+        color: #FFFFFF;
+    }
+
+    #fechas {
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+        img {
+            width: 2%;
+            display: inline;
+        }
+
+        ol {
+            list-style-type: none;
+            font-size: large;
+            display: flex;
+            color: grey;
+            flex-direction: column;
+        }
+
+        h3 {
+            color: brown;
+            display: inline;
+            margin: 5px;
+        }
+    }
+
+    .vct {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin-left: 500px;
+        max-width: 100%;
+        height: auto;
+
+        img {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+    }
+
+    .vct-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        max-width: 150%;
+        height: auto;
+
+        img {
+            width: 105%;
+            margin-right: 80px;
+            margin-bottom: 5px;
+        }
+    }
+}

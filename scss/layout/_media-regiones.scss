@@ -1,0 +1,13 @@
+/* Media query regiones */
+
+@media only screen and (max-width: 770px) {
+    .vct-fullscreen img {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .vct-mobile img {
+        display: none;
+    }
+}

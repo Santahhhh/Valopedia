@@ -1,0 +1,77 @@
+/* Campeones */
+
+.Campeones-do-mundo {
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-weight: bold;
+        border-bottom: #40474F solid 2px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        font-family: "Anton", sans-serif;
+    }
+
+    #CHAMPIONS {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .campeones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        p {
+            font-family: "Roboto", sans-serif;
+            color: #FFFFFF;
+        }
+
+        .campeon-item {
+            width: 300px;
+            margin-right: 130px;
+            margin-bottom: 70px;
+            margin-left: 70px;
+            text-align: center;
+            justify-content: center;
+
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+                line-height: 1.5;
+                text-align: justify
+            }
+
+            a {
+                color: #51a1e8;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .campeon-photo {
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    max-width: 150%;
+                    /* la imagen no se estira más de su tamaño original */
+                    max-height: 1000px;
+                    /* altura máxima para q no se exceda el tamaño */
+                    width: 130%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

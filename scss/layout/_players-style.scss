@@ -1,0 +1,98 @@
+/*JUGADORES STYLE*/
+
+.main-container {
+    display: flex;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .titleplayer {
+        font-family: "Open Sans", sans-serif;
+        color: rgb(197, 1, 1);
+        border-bottom: #DFDEE0 solid 2px;
+    }
+
+    .Overview {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+
+        h2 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .texto-uno {
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+    }
+
+    .Settings {
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+
+        .config {
+            list-style-type: none;
+        }
+    }
+
+    .Personal {
+        list-style-type: none;
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+            color: #FFFFFF;
+            padding: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #FFFFFF;
+        }
+    }
+
+    .Redes {
+        list-style-type: none;
+        font-family: "Roboto", sans-serif;
+        color: #FFFFFF;
+
+        h3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: brown;
+        }
+
+        .links-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            list-style-type: none;
+            color: #FFFFFF;
+
+            li {
+                border: #111111 solid 2px;
+                margin: 2px;
+                background-color: #D6CECF;
+            }
+
+            #vlr img {
+                width: 48px;
+            }
+        }
+
+    }
+}

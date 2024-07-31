@@ -1,0 +1,83 @@
+/* CALENDARIO */
+
+#CALENDARIO {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: "Anton", sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 50px;
+        margin-right: 55px;
+        border-bottom: #40474F solid 2px;
+    }
+
+    .VCTLIST {
+        list-style-type: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin: 15px;
+
+        em {
+            color: #535C65;
+        }
+    }
+
+    .match-date {
+        color: #D13539;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .match-item {
+        color: #FFFFFF;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .item-color {
+        background-color: #40474F;
+        padding: 15px;
+        border-bottom: 1px solid #535C65;
+    }
+
+    .margin-dates {
+        margin-top: 20px;
+    }
+
+    .margin-items {
+        margin-top: 5px;
+    }
+
+    .completed-match {
+        background-color: #888888;
+        border-radius: 3px;
+        padding: 4px;
+    }
+
+    .completed-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .match-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,48 @@
+/* HEADER */
+
+header {
+    background-color: #111111 !important;
+
+
+    a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .nav-fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        /* Asegura que la navbar esté por encima del contenido */
+        background-color: #111111 !important;
+        border-bottom: 2px solid #1A1A1A !important;
+    }
+
+    .fnt-fmlly {
+        font-family: "Signika", sans-serif;
+        font-weight: bold;
+    }
+
+    .bor-bot-head {
+        border-bottom: 2px solid #1A1A1A;
+    }
+
+    .white-text {
+        color: #FFFFFF !important;
+    }
+
+    .inicio-sesion a {
+        background-color: #D13539;
+        border-radius: 12px;
+        color: #111111;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

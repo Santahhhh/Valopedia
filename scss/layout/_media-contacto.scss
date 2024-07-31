@@ -1,0 +1,41 @@
+/* Media query contacto */
+
+@media (max-width: 768px) {
+    #contacto {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .contacto-item {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .contacto-item a {
+        font-size: 0.9em;
+        /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .icono {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto-item {
+        padding: 8px;
+    }
+
+    .contacto-item a {
+        font-size: 0.8em;
+        /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    .icono {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}
