@@ -3,15 +3,13 @@
 .Campeones-do-mundo {
 
     h1 {
+        @extend .title;
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 32px;
-        font-weight: bold;
         border-bottom: #40474F solid 2px;
         display: flex;
         align-items: center;
-        color: #FFFFFF;
-        font-family: "Anton", sans-serif;
     }
 
     #CHAMPIONS {
