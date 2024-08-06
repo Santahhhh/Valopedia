@@ -1,3 +1,6 @@
+$color-blanco: #FFFFFF;
+$font-principal: "Anton", sans-serif;
+
 /* INDEX */
 
 .Inicio {
@@ -8,14 +11,14 @@
     max-width: 1400px;
 
     .title {
-        font-family: "Anton", sans-serif;
+        font-family: $font-principal;
         font-weight: bold;
-        color: #FFFFFF;
+        color: $color-blanco;
     }
 
     h2 {
-        font-family: "Anton", sans-serif;
-        color: #FFFFFF;
+        font-family: $font-principal;
+        color: $color-blanco;
     }
 
     #fechas {
