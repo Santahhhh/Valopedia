@@ -1,3 +1,6 @@
+//Link variables
+@import "../utilities/variables";
+
 /* CALENDARIO */
 
 #CALENDARIO {
@@ -5,9 +8,9 @@
     flex-direction: column;
 
     h1 {
-        font-family: "Anton", sans-serif;
+        font-family: $font-principal;
         font-weight: bold;
-        color: #FFFFFF;
+        color: $color-blanco;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -18,9 +21,9 @@
 
     .VCTLIST {
         list-style-type: none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: $font-lucida;
         font-weight: bold;
-        color: #FFFFFF;
+        color: $color-blanco;
         text-decoration: none;
         font-size: 20px;
         display: flex;
@@ -35,12 +38,12 @@
 
     .match-date {
         color: #D13539;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: $font-lucida;
     }
 
     .match-item {
-        color: #FFFFFF;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: $color-blanco;
+        font-family: $font-lucida;
         display: flex;
         justify-content: space-between;
         align-items: center;

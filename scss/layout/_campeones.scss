@@ -1,9 +1,14 @@
+//Link variables
+@import "../utilities/variables";
+
 /* Campeones */
 
 .Campeones-do-mundo {
 
     h1 {
-        @extend .title;
+        font-family: $font-principal;
+        font-weight: bold;
+        color: $color-blanco;
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 32px;
@@ -16,7 +21,7 @@
         margin-bottom: 20px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #FFFFFF;
+        color: $color-blanco;
         text-align: center;
     }
 
@@ -28,7 +33,7 @@
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #FFFFFF;
+            color: $color-blanco;
         }
 
         .campeon-item {

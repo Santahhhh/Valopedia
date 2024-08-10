@@ -1,8 +1,13 @@
+//Link variables
+@import "../utilities/variables";
+
 /* CONTACTO */
 
 #contactos {
     h1 {
-        @extend .title;
+        font-family: $font-principal;
+        font-weight: bold;
+        color: $color-blanco;
         border-bottom: #40474F solid 2px;
     }
 
@@ -20,13 +25,13 @@
             text-align: center;
 
             h2 {
-                font-family: "Anton", sans-serif;
-                color: #FFFFFF;
+                font-family: $font-principal;
+                color: $color-blanco;
             }
 
             a {
                 text-decoration: none;
-                color: #FFFFFF;
+                color: $color-blanco;
                 font-weight: bold;
                 display: flex;
                 align-items: center;

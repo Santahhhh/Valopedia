@@ -3,6 +3,9 @@
 //base
 @import "base/reset";
 
+//components
+@import "components/boton-inicio-sesion";
+
 //layout
 @import "layout/header";
 @import "layout/index";
@@ -13,6 +16,8 @@
 @import "layout/contacto";
 @import "layout/vct-regiones";
 @import "layout/footer";
+
+//Media queris
 @import "media-queris/media-header";
 @import "media-queris/media-index";
 @import "media-queris/media-regiones";
@@ -20,10 +25,5 @@
 @import "media-queris/media-calendario";
 
 //utilities
-@import "./utilities/variables";
-
-
-
-
-
+@import "utilities/variables";
 

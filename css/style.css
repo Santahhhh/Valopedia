@@ -24,6 +24,7 @@ main {
   margin: 0;
 }
 
+/* Variables */
 /* HEADER */
 header {
   background-color: #111111 !important;
@@ -64,6 +65,7 @@ header .inicio-sesion a {
   align-items: center;
 }
 
+/* Variables */
 /* INDEX */
 .Inicio {
   display: flex;
@@ -72,7 +74,7 @@ header .inicio-sesion a {
   width: 100%;
   max-width: 1400px;
 }
-.Inicio h1 {
+.Inicio .title {
   font-family: "Anton", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
@@ -128,17 +130,18 @@ header .inicio-sesion a {
   margin-bottom: 5px;
 }
 
+/* Variables */
 /* Campeones */
 .Campeones-do-mundo h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 32px;
-  font-weight: bold;
   border-bottom: #40474F solid 2px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
-  font-family: "Anton", sans-serif;
 }
 .Campeones-do-mundo #CHAMPIONS {
   margin-bottom: 20px;
@@ -192,19 +195,20 @@ header .inicio-sesion a {
   align-items: center;
 }
 
+/* Variables */
 /*PLAYERS*/
 .Jugadores-destacados {
   text-align: left;
   margin-bottom: 20px;
 }
 .Jugadores-destacados h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 32px;
-  font-weight: bold;
   border-bottom: #40474F solid 2px;
-  color: #FFFFFF;
-  font-family: "Anton", sans-serif;
 }
 .Jugadores-destacados .Player-item {
   background-color: #40474F;
@@ -228,6 +232,7 @@ header .inicio-sesion a {
   width: 35px;
 }
 
+/* Variables */
 /*JUGADORES STYLE*/
 .main-container {
   display: flex;
@@ -262,9 +267,6 @@ header .inicio-sesion a {
   list-style-type: none;
 }
 .main-container .Personal {
-  list-style-type: none;
-  font-family: "Roboto", sans-serif;
-  color: #FFFFFF;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -282,34 +284,34 @@ header .inicio-sesion a {
   list-style-type: none;
   color: #FFFFFF;
 }
-.main-container .Redes {
+.main-container .Redes, .main-container .Personal {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
 }
-.main-container .Redes h3 {
+.main-container .Redes h3, .main-container .Personal h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   color: brown;
 }
-.main-container .Redes .links-list {
+.main-container .Redes .links-list, .main-container .Personal .links-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px;
   list-style-type: none;
-  color: #FFFFFF;
 }
-.main-container .Redes .links-list li {
+.main-container .Redes .links-list li, .main-container .Personal .links-list li {
   border: #111111 solid 2px;
   margin: 2px;
   background-color: #D6CECF;
 }
-.main-container .Redes .links-list #vlr img {
+.main-container .Redes .links-list #vlr img, .main-container .Personal .links-list #vlr img {
   width: 48px;
 }
 
+/* Variables */
 /* CALENDARIO */
 #CALENDARIO {
   display: flex;
@@ -382,6 +384,7 @@ header .inicio-sesion a {
   align-items: center;
 }
 
+/* Variables */
 /* CONTACTO */
 #contactos h1 {
   font-family: "Anton", sans-serif;
@@ -425,6 +428,7 @@ header .inicio-sesion a {
   text-decoration: underline;
 }
 
+/* Variables */
 /* VCT REGIONES */
 .vct-fullscreen {
   display: flex;
@@ -466,6 +470,7 @@ header .inicio-sesion a {
   color: #FFFFFF;
 }
 
+/* Variables */
 /* FOOTER */
 footer {
   background-color: #111111;
@@ -527,9 +532,14 @@ footer a {
     display: none;
   }
 }
-/* Media query calendario */
-@media only screen and (max-width: 991px) {
-  .mobile-item {
+/* Media query regiones */
+@media only screen and (max-width: 770px) {
+  .vct-fullscreen img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .vct-mobile img {
     display: none;
   }
 }
@@ -567,16 +577,12 @@ footer a {
     margin-right: 5px;
   }
 }
-/* Media query regiones */
-@media only screen and (max-width: 770px) {
-  .vct-fullscreen img {
+/* Media query calendario */
+@media only screen and (max-width: 991px) {
+  .mobile-item {
     display: none;
   }
 }
-@media only screen and (min-width: 770px) {
-  .vct-mobile img {
-    display: none;
-  }
-}
+/* Variables */
 
 /*# sourceMappingURL=style.css.map */
