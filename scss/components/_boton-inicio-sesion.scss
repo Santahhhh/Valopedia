@@ -1,0 +1,10 @@
+@mixin boton-inicio-sesion {
+    background-color: #D13539;
+    border-radius: 12px;
+    color: #111111;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

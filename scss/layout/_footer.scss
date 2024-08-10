@@ -1,3 +1,6 @@
+//Link variables
+@import "../utilities/variables";
+
 /* FOOTER */
 
 footer {
@@ -25,7 +28,7 @@ footer {
     }
 
     a {
-        color: #FFFFFF;
+        color: $color-blanco;
         text-decoration: none;
     }
 

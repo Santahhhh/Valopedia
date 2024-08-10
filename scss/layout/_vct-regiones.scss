@@ -1,3 +1,6 @@
+//Link variables
+@import "../utilities/variables";
+
 /* VCT REGIONES */
 
 .vct-fullscreen {
@@ -37,7 +40,7 @@
     align-items: center;
     justify-content: center;
     border: #5ABBD3 solid 1px;
-    font-family: "Anton", sans-serif;
+    font-family: $font-principal;
     font-weight: bold;
-    color: #FFFFFF;
+    color: $color-blanco;
 }
