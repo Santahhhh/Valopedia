@@ -7,7 +7,7 @@
     h1 {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         border-bottom: #40474F solid 2px;
     }
 
@@ -26,12 +26,12 @@
 
             h2 {
                 font-family: $font-principal;
-                color: $color-blanco;
+                color: $primary-color;
             }
 
             a {
                 text-decoration: none;
-                color: $color-blanco;
+                color: $primary-color;
                 font-weight: bold;
                 display: flex;
                 align-items: center;

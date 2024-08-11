@@ -10,7 +10,7 @@
     h1 {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -21,9 +21,9 @@
 
     .VCTLIST {
         list-style-type: none;
-        font-family: $font-lucida;
+        font-family: $font-secundaria;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         text-decoration: none;
         font-size: 20px;
         display: flex;
@@ -38,12 +38,12 @@
 
     .match-date {
         color: #D13539;
-        font-family: $font-lucida;
+        font-family: $font-secundaria;
     }
 
     .match-item {
-        color: $color-blanco;
-        font-family: $font-lucida;
+        color: $primary-color;
+        font-family: $font-secundaria;
         display: flex;
         justify-content: space-between;
         align-items: center;

@@ -5,20 +5,30 @@
 
 .main-container {
     display: flex;
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; // Centra las secciones horizontalmente
+    padding: 20px; // Añade un padding general a toda la main-container
+    gap: 20px;
+    /* Espaciado entre las secciones */
+
+
+    section {
+        width: 100%; // Asegura que las secciones ocupen todo el ancho disponible
+        max-width: 1200px; // Limita el ancho máximo para pantallas grandes
+        margin-bottom: 20px; // Espacio entre las secciones
+    }
 
     .titleplayer {
         font-family: "Open Sans", sans-serif;
-        color: rgb(197, 1, 1);
+        color: $secondary-color;
         border-bottom: #DFDEE0 solid 2px;
+        width: 100%; // Ocupa todo el ancho de la sección
+        margin-bottom: 20px; // Añade espacio debajo del título
     }
 
     .Overview {
-        font-family: $font-lucida;
-        color: $color-blanco;
+        font-family: $font-secundaria;
+        color: $primary-color;
 
         h2 {
             margin-top: 15px;
@@ -26,32 +36,60 @@
         }
 
         .texto-uno {
-            font-family: "Roboto", sans-serif;
-            margin-bottom: 10px;
-            margin-top: 5px;
+            font-family: $font-terciaria;
+            margin: 10px 0; // Ajusta márgenes superiores e inferiores
         }
     }
 
     .Settings {
-        font-family: "Roboto", sans-serif;
-        color: $color-blanco;
+        border-radius: 8px; // Redondea bordes para un estilo más moderno
+        font-family: $font-terciaria;
+        color: $primary-color;
+        background-color: $tertiary-color;
+
+        .gears {
+            font-family: $font-terciaria;
+            color: $secondary-color;
+            font-size: 30px;
+            border-bottom: 1px solid #DFDEE0;
+        }
 
         .config {
             list-style-type: none;
+        }
+
+        h2,
+        h3 {
+            text-align: center; // Centra los títulos en cada sección
+        }
+
+        ul {
+            margin: 0; // Ajusta márgenes
+        }
+
+        li {
+            margin-bottom: 10px; // Espacio entre los ítems de la lista
         }
     }
 
     .Personal {
         @extend .Redes;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        background-color: $tertiary-color;
+        color: $primary-color;
+        padding: 20px; // Añade espacio interno a las secciones
+        border-radius: 8px; // Redondea bordes para un estilo más moderno
 
         h3 {
-            color: $color-blanco;
-            padding: 5px;
+            color: $primary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-weight: bold;
             text-align: center;
+
+            .team-icon {
+                width: 45px;
+            }
         }
 
         img {
@@ -60,27 +98,45 @@
 
         ul {
             list-style-type: none;
-            color: $color-blanco;
+            padding-left: 0; // Elimina padding por defecto
+            margin: 0; // Ajusta márgenes
+
+            li {
+                .flag-country {
+                    width: 32px;
+                    height: 20px;
+                    align-items: center;
+                    display: inline;
+                    margin-bottom: 10px; // Espacio entre los ítems de la lista
+                }
+            }
         }
     }
 
     .Redes {
         list-style-type: none;
-        font-family: "Roboto", sans-serif;
-        color: $color-blanco;
+        font-family: $font-terciaria;
+        background-color: $tertiary-color;
+        color: $primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px; // Añade espacio interno a las secciones
+        border-radius: 8px; // Redondea bordes para un estilo más moderno
 
         h3 {
+            color: $primary-color;
             display: flex;
-            align-items: center;
             justify-content: center;
-            color: brown;
+            align-items: center;
         }
 
         .links-list {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 5px;
+            margin-right: 32px;
             list-style-type: none;
 
             li {
@@ -91,6 +147,31 @@
 
             #vlr img {
                 width: 48px;
+            }
+        }
+
+    }
+
+    .Achievements {
+        @extend .Redes;
+        padding: 20px; // Añade espacio interno a las secciones
+        border-radius: 8px; // Redondea bordes para un estilo más moderno
+
+        p {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 7px;
+
+            .champions-icon {
+                width: 26px;
+                margin-right: 5px;
+            }
+
+            .team-champion {
+                width: 37px;
+                margin-left: 5px;
             }
         }
 
