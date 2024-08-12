@@ -38,17 +38,16 @@
                 justify-content: center;
                 flex-wrap: wrap;
 
-                /* Permite que los elementos se ajusten en varias líneas si es necesario */
+                &:hover {
+                    text-decoration: underline;
+                }
+
                 .icono {
                     width: 40px;
                     height: 40px;
                     margin-right: 5px;
                 }
             }
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
     }
 }

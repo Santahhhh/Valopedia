@@ -74,10 +74,6 @@
 
     .Personal {
         @extend .Redes;
-        background-color: $tertiary-color;
-        color: $primary-color;
-        padding: 20px; // Añade espacio interno a las secciones
-        border-radius: 8px; // Redondea bordes para un estilo más moderno
 
         h3 {
             color: $primary-color;
@@ -143,6 +139,12 @@
                 border: #111111 solid 2px;
                 margin: 2px;
                 background-color: #D6CECF;
+                filter: grayscale(100%);
+                transition: filter 0.3s ease, transform 0.3s ease;
+
+                &:hover {
+                    filter: grayscale(0%);
+                }
             }
 
             #vlr img {
@@ -154,8 +156,6 @@
 
     .Achievements {
         @extend .Redes;
-        padding: 20px; // Añade espacio interno a las secciones
-        border-radius: 8px; // Redondea bordes para un estilo más moderno
 
         p {
 

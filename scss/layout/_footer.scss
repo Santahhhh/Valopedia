@@ -22,8 +22,13 @@ footer {
         text-decoration: none;
         padding: 10px 0;
 
-        a:hover {
-            color: #FF4655;
+        a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: #FF4655;
+            }
         }
     }
 
@@ -31,6 +36,4 @@ footer {
         color: $primary-color;
         text-decoration: none;
     }
-
-
 }

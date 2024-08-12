@@ -54,7 +54,8 @@ header .white-text {
   color: #FFFFFF !important;
 }
 header .inicio-sesion a {
-  background-color: #D13539;
+  background: rgb(233, 63, 63);
+  background: linear-gradient(90deg, rgb(233, 63, 63) 10%, rgb(212, 42, 47) 68%);
   border-radius: 12px;
   color: #111111;
   text-decoration: none;
@@ -190,7 +191,10 @@ header .inicio-sesion a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s;
+  /* SHADOW */
+  box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+  -moz-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
 }
 
 /*PLAYERS*/
@@ -287,12 +291,6 @@ header .inicio-sesion a {
 .main-container .Settings li {
   margin-bottom: 10px;
 }
-.main-container .Personal {
-  background-color: #2C2F35;
-  color: #FFFFFF;
-  padding: 20px;
-  border-radius: 8px;
-}
 .main-container .Personal h3 {
   color: #FFFFFF;
   display: flex;
@@ -348,13 +346,14 @@ header .inicio-sesion a {
   border: #111111 solid 2px;
   margin: 2px;
   background-color: #D6CECF;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.main-container .Redes .links-list li:hover, .main-container .Achievements .links-list li:hover, .main-container .Personal .links-list li:hover {
+  filter: grayscale(0%);
 }
 .main-container .Redes .links-list #vlr img, .main-container .Achievements .links-list #vlr img, .main-container .Personal .links-list #vlr img {
   width: 48px;
-}
-.main-container .Achievements {
-  padding: 20px;
-  border-radius: 8px;
 }
 .main-container .Achievements p {
   display: flex;
@@ -475,15 +474,14 @@ header .inicio-sesion a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* Permite que los elementos se ajusten en varias líneas si es necesario */
+}
+#contactos #contacto .contacto-item a:hover {
+  text-decoration: underline;
 }
 #contactos #contacto .contacto-item a .icono {
   width: 40px;
   height: 40px;
   margin-right: 5px;
-}
-#contactos #contacto a:hover {
-  text-decoration: underline;
 }
 
 /* VCT REGIONES */
@@ -546,6 +544,10 @@ footer ul {
   text-decoration: none;
   padding: 10px 0;
 }
+footer ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 footer ul a:hover {
   color: #FF4655;
 }
@@ -586,11 +588,6 @@ footer a {
 @media only screen and (min-width: 770px) {
   .vct-mobile img {
     display: none;
-  }
-}
-@media only screen and (min-width: 991px) {
-  .campeon-photo img:hover {
-    transform: scale(1.5);
   }
 }
 /* Media query regiones */

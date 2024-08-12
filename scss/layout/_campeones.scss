@@ -54,10 +54,10 @@
             a {
                 color: #51a1e8;
                 text-decoration: none;
-            }
 
-            a:hover {
-                text-decoration: underline;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             .campeon-photo {
@@ -73,7 +73,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transition: 1s;
+
+                    /* SHADOW */
+                    box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+                    -webkit-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+                    -moz-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
                 }
             }
         }
