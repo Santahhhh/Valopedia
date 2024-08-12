@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Selector Universal */
 * {
   margin: 0;
@@ -29,14 +28,12 @@ main {
 header {
   background-color: #111111 !important;
 }
-
 header a {
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: left;
 }
-
 header .nav-fixed {
   position: fixed;
   top: 0;
@@ -46,20 +43,16 @@ header .nav-fixed {
   background-color: #111111 !important;
   border-bottom: 2px solid #1A1A1A !important;
 }
-
 header .fnt-fmlly {
   font-family: "Signika", sans-serif;
   font-weight: bold;
 }
-
 header .bor-bot-head {
   border-bottom: 2px solid #1A1A1A;
 }
-
 header .white-text {
   color: #FFFFFF !important;
 }
-
 header .inicio-sesion a {
   background: rgb(233, 63, 63);
   background: linear-gradient(90deg, rgb(233, 63, 63) 10%, rgb(212, 42, 47) 68%);
@@ -80,28 +73,23 @@ header .inicio-sesion a {
   width: 100%;
   max-width: 1400px;
 }
-
 .Inicio .title {
   font-family: "Anton", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-
 .Inicio h2 {
   font-family: "Anton", sans-serif;
   color: #FFFFFF;
 }
-
 .Inicio #fechas {
   margin-bottom: 20px;
   margin-top: 50px;
 }
-
 .Inicio #fechas img {
   width: 30px;
   display: inline;
 }
-
 .Inicio #fechas ol {
   list-style-type: none;
   font-size: large;
@@ -109,13 +97,11 @@ header .inicio-sesion a {
   color: grey;
   flex-direction: column;
 }
-
 .Inicio #fechas #title-fechas {
   color: brown;
   display: inline;
   margin: 5px;
 }
-
 .Inicio .vct {
   display: flex;
   flex-direction: column;
@@ -125,12 +111,10 @@ header .inicio-sesion a {
   max-width: 100%;
   height: auto;
 }
-
 .Inicio .vct img {
   margin-bottom: 15px;
   width: 100%;
 }
-
 .Inicio .vct-mobile {
   display: flex;
   justify-content: center;
@@ -139,7 +123,6 @@ header .inicio-sesion a {
   max-width: 150%;
   height: auto;
 }
-
 .Inicio .vct-mobile img {
   width: 105%;
   margin-right: 80px;
@@ -158,7 +141,6 @@ header .inicio-sesion a {
   display: flex;
   align-items: center;
 }
-
 .Campeones-do-mundo #CHAMPIONS {
   margin-bottom: 20px;
   font-weight: bold;
@@ -166,19 +148,16 @@ header .inicio-sesion a {
   color: #FFFFFF;
   text-align: center;
 }
-
 .Campeones-do-mundo .campeones {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-
 .Campeones-do-mundo .campeones p {
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
 }
-
 .Campeones-do-mundo .campeones .campeon-item {
   width: 300px;
   margin-right: 130px;
@@ -187,23 +166,19 @@ header .inicio-sesion a {
   text-align: center;
   justify-content: center;
 }
-
 .Campeones-do-mundo .campeones .campeon-item p {
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.5;
   text-align: justify;
 }
-
 .Campeones-do-mundo .campeones .campeon-item a {
   color: #51a1e8;
   text-decoration: none;
 }
-
 .Campeones-do-mundo .campeones .campeon-item a:hover {
   text-decoration: underline;
 }
-
 .Campeones-do-mundo .campeones .campeon-item .campeon-photo img {
   width: 100%;
   height: auto;
@@ -227,7 +202,6 @@ header .inicio-sesion a {
   text-align: left;
   margin-bottom: 20px;
 }
-
 .Jugadores-destacados h1 {
   font-family: "Anton", sans-serif;
   font-weight: bold;
@@ -237,22 +211,18 @@ header .inicio-sesion a {
   font-size: 32px;
   border-bottom: #40474F solid 2px;
 }
-
 .Jugadores-destacados .Player-item {
   background-color: #40474F;
   padding: 15px;
   border-bottom: 1px solid #535C65;
 }
-
 .Jugadores-destacados .Player-item a {
   text-decoration: none;
   color: #FFFFFF;
 }
-
 .Jugadores-destacados .Player-item em {
   color: grey;
 }
-
 .Jugadores-destacados .Player-item .imageplayers {
   width: 100%;
   height: auto;
@@ -272,13 +242,11 @@ header .inicio-sesion a {
   gap: 20px;
   /* Espaciado entre las secciones */
 }
-
 .main-container section {
   width: 100%;
   max-width: 1200px;
   margin-bottom: 20px;
 }
-
 .main-container .titleplayer {
   font-family: "Open Sans", sans-serif;
   color: #FF4655;
@@ -286,53 +254,43 @@ header .inicio-sesion a {
   width: 100%;
   margin-bottom: 20px;
 }
-
 .main-container .Overview {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #FFFFFF;
 }
-
 .main-container .Overview h2 {
   margin-top: 15px;
   font-weight: bold;
 }
-
 .main-container .Overview .texto-uno {
   font-family: "Roboto", sans-serif;
   margin: 10px 0;
 }
-
 .main-container .Settings {
   border-radius: 8px;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   background-color: #2C2F35;
 }
-
 .main-container .Settings .gears {
   font-family: "Roboto", sans-serif;
   color: #FF4655;
   font-size: 30px;
   border-bottom: 1px solid #DFDEE0;
 }
-
 .main-container .Settings .config {
   list-style-type: none;
 }
-
 .main-container .Settings h2,
 .main-container .Settings h3 {
   text-align: center;
 }
-
 .main-container .Settings ul {
   margin: 0;
 }
-
 .main-container .Settings li {
   margin-bottom: 10px;
 }
-
 .main-container .Personal h3 {
   color: #FFFFFF;
   display: flex;
@@ -341,21 +299,17 @@ header .inicio-sesion a {
   font-weight: bold;
   text-align: center;
 }
-
 .main-container .Personal h3 .team-icon {
   width: 45px;
 }
-
 .main-container .Personal img {
   width: 300px;
 }
-
 .main-container .Personal ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
-
 .main-container .Personal ul li .flag-country {
   width: 32px;
   height: 20px;
@@ -363,10 +317,7 @@ header .inicio-sesion a {
   display: inline;
   margin-bottom: 10px;
 }
-
-.main-container .Redes,
-.main-container .Achievements,
-.main-container .Personal {
+.main-container .Redes, .main-container .Achievements, .main-container .Personal {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
   background-color: #2C2F35;
@@ -378,60 +329,42 @@ header .inicio-sesion a {
   padding: 20px;
   border-radius: 8px;
 }
-
-.main-container .Redes h3,
-.main-container .Achievements h3,
-.main-container .Personal h3 {
+.main-container .Redes h3, .main-container .Achievements h3, .main-container .Personal h3 {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.main-container .Redes .links-list,
-.main-container .Achievements .links-list,
-.main-container .Personal .links-list {
+.main-container .Redes .links-list, .main-container .Achievements .links-list, .main-container .Personal .links-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 32px;
   list-style-type: none;
 }
-
-.main-container .Redes .links-list li,
-.main-container .Achievements .links-list li,
-.main-container .Personal .links-list li {
+.main-container .Redes .links-list li, .main-container .Achievements .links-list li, .main-container .Personal .links-list li {
   border: #111111 solid 2px;
   margin: 2px;
   background-color: #D6CECF;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
-
-.main-container .Redes .links-list li:hover,
-.main-container .Achievements .links-list li:hover,
-.main-container .Personal .links-list li:hover {
+.main-container .Redes .links-list li:hover, .main-container .Achievements .links-list li:hover, .main-container .Personal .links-list li:hover {
   filter: grayscale(0%);
 }
-
-.main-container .Redes .links-list #vlr img,
-.main-container .Achievements .links-list #vlr img,
-.main-container .Personal .links-list #vlr img {
+.main-container .Redes .links-list #vlr img, .main-container .Achievements .links-list #vlr img, .main-container .Personal .links-list #vlr img {
   width: 48px;
 }
-
 .main-container .Achievements p {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 7px;
 }
-
 .main-container .Achievements p .champions-icon {
   width: 26px;
   margin-right: 5px;
 }
-
 .main-container .Achievements p .team-champion {
   width: 37px;
   margin-left: 5px;
@@ -442,7 +375,6 @@ header .inicio-sesion a {
   display: flex;
   flex-direction: column;
 }
-
 #CALENDARIO h1 {
   font-family: "Anton", sans-serif;
   font-weight: bold;
@@ -454,7 +386,6 @@ header .inicio-sesion a {
   margin-right: 55px;
   border-bottom: #40474F solid 2px;
 }
-
 #CALENDARIO .VCTLIST {
   list-style-type: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -467,16 +398,13 @@ header .inicio-sesion a {
   flex-direction: column;
   margin: 15px;
 }
-
 #CALENDARIO .VCTLIST em {
   color: #535C65;
 }
-
 #CALENDARIO .match-date {
   color: #D13539;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 #CALENDARIO .match-item {
   color: #FFFFFF;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -487,33 +415,27 @@ header .inicio-sesion a {
   position: relative;
   padding: 0 20px;
 }
-
 #CALENDARIO .item-color {
   background-color: #40474F;
   padding: 15px;
   border-bottom: 1px solid #535C65;
 }
-
 #CALENDARIO .margin-dates {
   margin-top: 20px;
 }
-
 #CALENDARIO .margin-items {
   margin-top: 5px;
 }
-
 #CALENDARIO .completed-match {
   background-color: #888888;
   border-radius: 3px;
   padding: 4px;
 }
-
 #CALENDARIO .completed-flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #CALENDARIO .match-info {
   display: flex;
   justify-content: center;
@@ -527,13 +449,11 @@ header .inicio-sesion a {
   color: #FFFFFF;
   border-bottom: #40474F solid 2px;
 }
-
 #contactos #contacto {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
 }
-
 #contactos #contacto .contacto-item {
   margin: 20px 0;
   padding: 15px;
@@ -542,12 +462,10 @@ header .inicio-sesion a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 #contactos #contacto .contacto-item h2 {
   font-family: "Anton", sans-serif;
   color: #FFFFFF;
 }
-
 #contactos #contacto .contacto-item a {
   text-decoration: none;
   color: #FFFFFF;
@@ -557,11 +475,9 @@ header .inicio-sesion a {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 #contactos #contacto .contacto-item a:hover {
   text-decoration: underline;
 }
-
 #contactos #contacto .contacto-item a .icono {
   width: 40px;
   height: 40px;
@@ -578,7 +494,6 @@ header .inicio-sesion a {
   max-width: 100%;
   height: auto;
 }
-
 .vct-fullscreen img {
   margin-bottom: 15px;
   width: 100%;
@@ -593,7 +508,6 @@ header .inicio-sesion a {
   max-width: 150%;
   height: auto;
 }
-
 .vct-mobile img {
   width: 105%;
   margin-right: 80px;
@@ -619,11 +533,9 @@ footer {
   border-top: 2px solid #1A1A1A;
   justify-content: space-between;
 }
-
 footer img {
   width: 30px;
 }
-
 footer ul {
   list-style-type: none;
   font-family: "Signika", sans-serif;
@@ -632,16 +544,13 @@ footer ul {
   text-decoration: none;
   padding: 10px 0;
 }
-
 footer ul a {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 footer ul a:hover {
   color: #FF4655;
 }
-
 footer a {
   color: #FFFFFF;
   text-decoration: none;
@@ -653,7 +562,6 @@ footer a {
     background-color: #FF4655;
     border-radius: 12px;
   }
-
   .navbar-nav a:hover {
     border-radius: 5px;
     background-color: #333333;
@@ -661,45 +569,38 @@ footer a {
     border-bottom: #FF4655 3px solid;
   }
 }
-
 @media only screen and (min-width: 991px) {
   .mobile-only {
     display: none;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .desktop-only {
     display: none;
   }
 }
-
 /* Media query index */
 @media only screen and (max-width: 770px) {
   .vct img {
     display: none;
   }
 }
-
 @media only screen and (min-width: 770px) {
   .vct-mobile img {
     display: none;
   }
 }
-
 /* Media query regiones */
 @media only screen and (max-width: 770px) {
   .vct-fullscreen img {
     display: none;
   }
 }
-
 @media only screen and (min-width: 770px) {
   .vct-mobile img {
     display: none;
   }
 }
-
 @media (max-width: 768px) {
   .player-image {
     width: 100%;
@@ -707,55 +608,46 @@ footer a {
     height: auto;
   }
 }
-
 @media (max-width: 768px) {
   .main-container section {
     padding: 10px;
     margin-bottom: 15px;
   }
 }
-
 /* Media query contacto */
 @media (max-width: 768px) {
   #contacto {
     padding: 10px;
     margin: 10px;
   }
-
   .contacto-item {
     margin: 10px 0;
     padding: 10px;
   }
-
   .contacto-item a {
     font-size: 0.9em;
     /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
   }
-
   .icono {
     width: 24px;
     height: 24px;
     margin-right: 5px;
   }
 }
-
 @media (max-width: 480px) {
   .contacto-item {
     padding: 8px;
   }
-
   .contacto-item a {
     font-size: 0.8em;
     /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
   }
-
   .icono {
     width: 20px;
     height: 20px;
     margin-right: 5px;
   }
 }
-
 /* Media query calendario */
 @media only screen and (max-width: 991px) {
   .mobile-item {
