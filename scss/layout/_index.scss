@@ -13,12 +13,12 @@
     .title {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
     }
 
     h2 {
         font-family: $font-principal;
-        color: $color-blanco;
+        color: $primary-color;
     }
 
     #fechas {
@@ -26,7 +26,7 @@
         margin-top: 50px;
 
         img {
-            width: 2%;
+            width: 30px;
             display: inline;
         }
 
@@ -38,7 +38,7 @@
             flex-direction: column;
         }
 
-        h3 {
+        #title-fechas {
             color: brown;
             display: inline;
             margin: 5px;

@@ -1,0 +1,18 @@
+// Ajustes específicos para móviles
+@media (max-width: 768px) {
+    .player-image {
+        width: 100%; // Asegura que las imágenes se redimensionen correctamente
+        max-width: 250px; // Limita el tamaño máximo
+        height: auto; // Mantiene la proporción de la imagen
+    }
+}
+
+// Ajustes para dispositivos móviles
+@media (max-width: 768px) {
+    .main-container {
+        section {
+            padding: 10px; // Reduce el padding en pantallas pequeñas
+            margin-bottom: 15px; // Ajuste de espacio entre secciones
+        }
+    }
+}

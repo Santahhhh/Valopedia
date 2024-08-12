@@ -7,7 +7,7 @@
     h1 {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         border-bottom: #40474F solid 2px;
     }
 
@@ -26,29 +26,28 @@
 
             h2 {
                 font-family: $font-principal;
-                color: $color-blanco;
+                color: $primary-color;
             }
 
             a {
                 text-decoration: none;
-                color: $color-blanco;
+                color: $primary-color;
                 font-weight: bold;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
 
-                /* Permite que los elementos se ajusten en varias líneas si es necesario */
+                &:hover {
+                    text-decoration: underline;
+                }
+
                 .icono {
                     width: 40px;
                     height: 40px;
                     margin-right: 5px;
                 }
             }
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
     }
 }

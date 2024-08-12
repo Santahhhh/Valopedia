@@ -10,7 +10,7 @@
     h1 {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 32px;
@@ -24,7 +24,7 @@
 
         a {
             text-decoration: none;
-            color: $color-blanco;
+            color: $primary-color;
         }
 
         em {

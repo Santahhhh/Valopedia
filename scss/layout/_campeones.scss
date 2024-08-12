@@ -8,7 +8,7 @@
     h1 {
         font-family: $font-principal;
         font-weight: bold;
-        color: $color-blanco;
+        color: $primary-color;
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 32px;
@@ -21,7 +21,7 @@
         margin-bottom: 20px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: $color-blanco;
+        color: $primary-color;
         text-align: center;
     }
 
@@ -32,8 +32,8 @@
         flex-wrap: wrap;
 
         p {
-            font-family: "Roboto", sans-serif;
-            color: $color-blanco;
+            font-family: $font-terciaria;
+            color: $primary-color;
         }
 
         .campeon-item {
@@ -54,10 +54,10 @@
             a {
                 color: #51a1e8;
                 text-decoration: none;
-            }
 
-            a:hover {
-                text-decoration: underline;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             .campeon-photo {
@@ -73,6 +73,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    /* SHADOW */
+                    box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+                    -webkit-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
+                    -moz-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
                 }
             }
         }
