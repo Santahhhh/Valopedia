@@ -110,6 +110,16 @@ header .inicio-sesion a {
   flex-direction: column;
 }
 
+.Inicio #fechas ol .concurrent {
+  background: linear-gradient(90deg, rgba(220, 48, 48, 0.2) 49.5%, color-mix(in srgb, #ff4655 1%, transparent) 100%);
+  border-left: 2px solid #ff4655;
+  padding: 5px;
+}
+
+.Inicio #fechas ol .actual {
+  color: #F24250;
+}
+
 .Inicio #fechas #title-fechas {
   color: brown;
   display: inline;
@@ -159,27 +169,39 @@ header .inicio-sesion a {
   align-items: center;
 }
 
-.Campeones-do-mundo #CHAMPIONS {
+.Campeones-do-mundo #CHAMPIONS,
+.Campeones-do-mundo #masters {
   margin-bottom: 20px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
   color: #FFFFFF;
   text-align: center;
+  padding: 25px;
+  background: rgb(152, 135, 78);
+  background: linear-gradient(90deg, rgb(152, 135, 78) 10%, rgb(134, 113, 54) 60%);
+  /* Shadow */
+  box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
 }
 
-.Campeones-do-mundo .campeones {
+.Campeones-do-mundo .campeones,
+.Campeones-do-mundo .campeones-masters {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.Campeones-do-mundo .campeones p {
+.Campeones-do-mundo .campeones p,
+.Campeones-do-mundo .campeones-masters p {
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
 }
 
-.Campeones-do-mundo .campeones .campeon-item {
+.Campeones-do-mundo .campeones .campeon-item,
+.Campeones-do-mundo .campeones-masters .campeon-item {
   width: 300px;
   margin-right: 130px;
   margin-bottom: 70px;
@@ -188,23 +210,27 @@ header .inicio-sesion a {
   justify-content: center;
 }
 
-.Campeones-do-mundo .campeones .campeon-item p {
+.Campeones-do-mundo .campeones .campeon-item p,
+.Campeones-do-mundo .campeones-masters .campeon-item p {
   margin-top: 10px;
   font-size: 14px;
   line-height: 1.5;
   text-align: justify;
 }
 
-.Campeones-do-mundo .campeones .campeon-item a {
+.Campeones-do-mundo .campeones .campeon-item a,
+.Campeones-do-mundo .campeones-masters .campeon-item a {
   color: #51a1e8;
   text-decoration: none;
 }
 
-.Campeones-do-mundo .campeones .campeon-item a:hover {
+.Campeones-do-mundo .campeones .campeon-item a:hover,
+.Campeones-do-mundo .campeones-masters .campeon-item a:hover {
   text-decoration: underline;
 }
 
-.Campeones-do-mundo .campeones .campeon-item .campeon-photo img {
+.Campeones-do-mundo .campeones .campeon-item .campeon-photo img,
+.Campeones-do-mundo .campeones-masters .campeon-item .campeon-photo img {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -222,10 +248,21 @@ header .inicio-sesion a {
   -moz-box-shadow: 1px 6px 25px 0px rgba(0, 0, 0, 0.85);
 }
 
+.Campeones-do-mundo #masters {
+  background: rgb(89, 53, 168) !important;
+  background: linear-gradient(90deg, rgb(89, 53, 168) 10%, rgb(24, 11, 57) 68%) !important;
+}
+
 /*PLAYERS*/
 .Jugadores-destacados {
   text-align: left;
   margin-bottom: 20px;
+  background-color: #2F3337;
+  padding: 15px;
+  /* Shadow */
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
 }
 
 .Jugadores-destacados h1 {
@@ -242,6 +279,10 @@ header .inicio-sesion a {
   background-color: #40474F;
   padding: 15px;
   border-bottom: 1px solid #535C65;
+  /* Shadow */
+  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
 }
 
 .Jugadores-destacados .Player-item a {
@@ -333,6 +374,19 @@ header .inicio-sesion a {
   margin-bottom: 10px;
 }
 
+.main-container .Personal {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  background-color: #2C2F35;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+}
+
 .main-container .Personal h3 {
   color: #FFFFFF;
   display: flex;
@@ -365,8 +419,7 @@ header .inicio-sesion a {
 }
 
 .main-container .Redes,
-.main-container .Achievements,
-.main-container .Personal {
+.main-container .Achievements {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
   background-color: #2C2F35;
@@ -377,11 +430,13 @@ header .inicio-sesion a {
   flex-direction: column;
   padding: 20px;
   border-radius: 8px;
+  gap: 5px;
+  box-sizing: border-box;
+  /* Asegura que el padding no afecte el tamaño del contenedor */
 }
 
 .main-container .Redes h3,
-.main-container .Achievements h3,
-.main-container .Personal h3 {
+.main-container .Achievements h3 {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
@@ -389,34 +444,43 @@ header .inicio-sesion a {
 }
 
 .main-container .Redes .links-list,
-.main-container .Achievements .links-list,
-.main-container .Personal .links-list {
+.main-container .Achievements .links-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 32px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
 .main-container .Redes .links-list li,
-.main-container .Achievements .links-list li,
-.main-container .Personal .links-list li {
+.main-container .Achievements .links-list li {
   border: #111111 solid 2px;
   margin: 2px;
   background-color: #D6CECF;
   filter: grayscale(100%);
-  transition: filter 0.3s ease, transform 0.3s ease;
+  transition: filter 0.1s ease, transform 0.3s ease;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container .Redes .links-list li:hover,
-.main-container .Achievements .links-list li:hover,
-.main-container .Personal .links-list li:hover {
+.main-container .Achievements .links-list li:hover {
   filter: grayscale(0%);
 }
 
-.main-container .Redes .links-list #vlr img,
-.main-container .Achievements .links-list #vlr img,
-.main-container .Personal .links-list #vlr img {
+.main-container .Redes .links-list li img,
+.main-container .Achievements .links-list li img {
+  width: 100%;
+  height: auto;
+}
+
+.main-container .Redes .links-list .size-icon img,
+.main-container .Achievements .links-list .size-icon img {
   width: 48px;
 }
 
@@ -647,6 +711,186 @@ footer a {
   text-decoration: none;
 }
 
+.register-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0F1923;
+  font-size: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.register-body .login-container {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.register-body .login-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 24px;
+}
+
+.register-body .login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-body .login-container form .sesion {
+  margin: 24px 0px;
+}
+
+.register-body .login-container form .sesion button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF4655;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-body .login-container form .sesion:hover {
+  background-color: #D13539;
+}
+
+.register-body .login-container form .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 18px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.register-body .login-container form .social-media .social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 9.6px;
+  cursor: pointer;
+}
+
+.register-body .login-container form .social-media .social-button button {
+  height: 48px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.register-body .login-container form .social-media .social-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.register-body .login-container form .social-media .facebook {
+  background-color: #0180FF;
+}
+
+.register-body .login-container form .social-media .google {
+  background-color: #F3F3F3;
+}
+
+.register-body .login-container form .social-media .twitch {
+  background-color: #A444FF;
+}
+
+.register-body .login-container form .social-media .twitter {
+  background-color: black;
+}
+
+.register-body .login-container form .check-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.register-body .login-container form .check-container h6 {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 3px;
+}
+
+.register-body .login-container form .check-container h6 label {
+  cursor: pointer;
+  color: grey;
+}
+
+.register-body .login-container form .check-container .check-section {
+  display: flex;
+  align-items: center;
+}
+
+.register-body .login-container form .check-container .check-section .checkbox-field {
+  font-size: 16px;
+}
+
+.register-body .login-container form .check-container .check-section .checkbox-field input {
+  box-sizing: border-box;
+  display: block;
+  color: rgb(31, 31, 31);
+  line-height: 18px;
+  font-size: 18px;
+  font-family: "FF Mark W05", sans-serif;
+  height: 17px;
+  width: 17px;
+}
+
+.register-body .login-container form .check-container .check-section .checkbox-field .field {
+  flex-wrap: wrap;
+}
+
+.register-body .login-container .form-group {
+  margin-bottom: 15px;
+}
+
+.register-body .login-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-body .login-container .form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.register-body .login-container .form-group .create-acc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6D6D6D;
+  background-color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.register-body .login-container .form-group .create-acc:hover {
+  color: black;
+}
+
+.register-body .login {
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Media query header */
 @media only screen and (min-width: 991px) {
   .inicio-sesion a:hover {
@@ -715,6 +959,32 @@ footer a {
   }
 }
 
+@media (max-width: 768px) {
+
+  .Redes,
+  .main-container .Achievements {
+    padding: 15px;
+  }
+
+  .Redes .links-list,
+  .main-container .Achievements .links-list {
+    flex-direction: row;
+    gap: 2px;
+    flex-wrap: wrap;
+  }
+
+  .Redes li,
+  .main-container .Achievements li {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Redes li img,
+  .main-container .Achievements li img {
+    width: 90%;
+  }
+}
+
 /* Media query contacto */
 @media (max-width: 768px) {
   #contacto {
@@ -760,6 +1030,47 @@ footer a {
 @media only screen and (max-width: 991px) {
   .mobile-item {
     display: none;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 16px;
+  }
+
+  .social-media {
+    row-gap: 25px;
+    margin-bottom: 15px;
+  }
+
+  .social-button {
+    padding: 0 8px;
+  }
+
+  .create-acc {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .login-container {
+    padding: 12px;
+    width: 100%;
+  }
+
+  .social-media {
+    flex-direction: row;
+    row-gap: 5px;
+  }
+
+  .social-button {
+    width: 100%;
+    padding: 0px 5px;
+  }
+
+  .create-acc {
+    font-size: 8px;
   }
 }
 

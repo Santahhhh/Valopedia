@@ -21,8 +21,17 @@
         margin-bottom: 20px;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
         color: $primary-color;
         text-align: center;
+        padding: 25px;
+        background: rgb(152, 135, 78);
+        background: linear-gradient(90deg, rgba(152, 135, 78, 1) 10%, rgba(134, 113, 54, 1) 60%);
+
+        /* Shadow */
+        box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
+        -webkit-box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
+        -moz-box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.69);
     }
 
     .campeones {
@@ -81,5 +90,15 @@
                 }
             }
         }
+    }
+
+    #masters {
+        @extend #CHAMPIONS;
+        background: rgb(89, 53, 168) !important;
+        background: linear-gradient(90deg, rgba(89, 53, 168, 1) 10%, rgba(24, 11, 57, 1) 68%) !important;
+    }
+
+    .campeones-masters {
+        @extend .campeones
     }
 }
