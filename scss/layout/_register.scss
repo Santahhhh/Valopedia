@@ -1,0 +1,179 @@
+.register-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0F1923;
+    font-size: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .login-container {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+        padding: 24px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-top: 24px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            .sesion {
+                margin: 24px 0px;
+
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #FF4655;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                &:hover {
+                    background-color: #D13539;
+                }
+            }
+
+            .social-media {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 18px;
+                margin-top: 15px;
+                flex-wrap: wrap;
+                height: auto;
+
+                .social-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px 40px;
+                    border: 2px solid rgba(0, 0, 0, 0.05);
+                    border-radius: 9.6px;
+                    cursor: pointer;
+
+                    button {
+                        height: 48px;
+                        -webkit-box-flex: 1;
+                        flex-grow: 1;
+                    }
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+
+                .facebook {
+                    background-color: #0180FF;
+                }
+
+                .google {
+                    background-color: #F3F3F3;
+                }
+
+                .twitch {
+                    background-color: #A444FF;
+                }
+
+                .twitter {
+                    background-color: black;
+                }
+            }
+
+            .check-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 10px;
+
+                h6 {
+                    font-size: 12px;
+                    text-align: left;
+                    margin-left: 3px;
+
+                    label {
+                        cursor: pointer;
+                        color: grey;
+                    }
+                }
+
+                .check-section {
+                    display: flex;
+                    align-items: center;
+
+                    .checkbox-field {
+                        font-size: 16px;
+
+                        input {
+                            box-sizing: border-box;
+                            display: block;
+                            color: rgb(31, 31, 31);
+                            line-height: 18px;
+                            font-size: 18px;
+                            font-family: "FF Mark W05", sans-serif;
+                            height: 17px;
+                            width: 17px;
+                        }
+
+                        .field {
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+            }
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input {
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+
+            .create-acc {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #6D6D6D;
+                background-color: white;
+                text-decoration: none;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 10px;
+                font-weight: bold;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .login {
+        background: rgb(255, 255, 255);
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+}

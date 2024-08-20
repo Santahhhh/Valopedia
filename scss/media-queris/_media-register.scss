@@ -1,0 +1,40 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 16px;
+    }
+
+    .social-media {
+        row-gap: 25px;
+        margin-bottom: 15px;
+    }
+
+    .social-button {
+        padding: 0 8px;
+    }
+
+    .create-acc {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    .login-container {
+        padding: 12px;
+        width: 100%;
+    }
+
+    .social-media {
+        flex-direction: row;
+        row-gap: 5px;
+    }
+
+    .social-button {
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    .create-acc {
+        font-size: 8px;
+    }
+}

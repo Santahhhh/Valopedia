@@ -6,6 +6,13 @@
 .Jugadores-destacados {
     text-align: left;
     margin-bottom: 20px;
+    background-color: #2F3337;
+    padding: 15px;
+
+    /* Shadow */
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
 
     h1 {
         font-family: $font-principal;
@@ -21,6 +28,11 @@
         background-color: #40474F;
         padding: 15px;
         border-bottom: 1px solid #535C65;
+
+        /* Shadow */
+        box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
 
         a {
             text-decoration: none;
