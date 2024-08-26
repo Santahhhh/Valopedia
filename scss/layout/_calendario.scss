@@ -20,16 +20,34 @@
     }
 
     .VCTLIST {
-        list-style-type: none;
-        font-family: $font-secundaria;
-        font-weight: bold;
-        color: $primary-color;
-        text-decoration: none;
         font-size: 20px;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         flex-direction: column;
-        margin: 15px;
+
+        button {
+            background-color: #090E13;
+            color: #535C65;
+            font-family: $font-secundaria;
+            font-weight: bold;
+            padding: 12px 24px;
+            border-inline: #273237 1px solid;
+            border-bottom: #273237 1px solid;
+            cursor: pointer;
+            filter: grayscale(45%);
+
+            &:hover {
+                background: rgb(9, 14, 19);
+                background: linear-gradient(180deg, rgba(9, 14, 19, 1) 0%, rgba(0, 0, 0, 1) 60%);
+                color: $primary-color;
+                filter: grayscale(0%);
+            }
+
+            .img-vct {
+                width: 48px;
+                height: auto;
+            }
+        }
 
         em {
             color: #535C65;
@@ -81,6 +99,10 @@
     .match-info {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .match {
         align-items: center;
     }
 }

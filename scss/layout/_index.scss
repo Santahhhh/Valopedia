@@ -28,6 +28,7 @@
         img {
             width: 30px;
             display: inline;
+            margin-bottom: 10px;
         }
 
         ol {
@@ -49,14 +50,14 @@
             }
         }
 
-        #title-fechas {
-            color: brown;
+        #title-fechas strong {
+            color: #D74646;
             display: inline;
-            margin: 5px;
         }
     }
 
     .vct {
+
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -64,25 +65,21 @@
         margin-left: 500px;
         max-width: 100%;
         height: auto;
-
-        img {
-            margin-bottom: 15px;
-            width: 100%;
-        }
     }
 
     .vct-mobile {
+
+        iframe {
+            width: 100%;
+            height: calc(100vw * (9/16));
+            /* Mantiene la proporción 16:9 */
+        }
+
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
-        max-width: 150%;
+        max-width: 100%;
         height: auto;
 
-        img {
-            width: 105%;
-            margin-right: 80px;
-            margin-bottom: 5px;
-        }
     }
 }

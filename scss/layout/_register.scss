@@ -36,15 +36,15 @@
                 button {
                     width: 100%;
                     padding: 10px;
-                    background-color: #FF4655;
+                    background-color: #FF4654;
                     color: white;
                     border: none;
                     border-radius: 5px;
                     cursor: pointer;
-                }
 
-                &:hover {
-                    background-color: #D13539;
+                    &:hover {
+                        background-color: #FF1F30;
+                    }
                 }
             }
 
