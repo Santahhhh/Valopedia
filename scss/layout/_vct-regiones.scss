@@ -3,28 +3,37 @@
 
 /* VCT REGIONES */
 
+.vct-container {
+    margin-top: 55px;
+    max-width: 100%;
+    height: auto;
 
-.container-vct {
-    flex: 1;
-    padding: 20px;
-    height: 100vh;
-    margin: 0;
-
+    iframe {
+        width: 100%;
+        height: calc(100vw * (9/16));
+        /* Mantiene la proporción 16:9 */
+    }
 
     .vct-fullscreen {
         width: 100%;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
     }
 
     .vct-mobile {
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
 
     .title-vct {
         background-color: black;
-        display: block;
+        display: flex;
         align-items: center;
         justify-content: center;
         border: #DC2F2F solid 1px;
@@ -33,7 +42,7 @@
         color: $primary-color;
 
         .icon-vct {
-            width: 45px;
+            width: 35px;
             height: auto;
             margin: 5px;
         }

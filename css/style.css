@@ -123,22 +123,17 @@ header .inicio-sesion a:hover {
   max-width: 100%;
   height: auto;
 }
-.Inicio .vct img {
-  margin-bottom: 15px;
-  width: 100%;
-}
 .Inicio .vct-mobile {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
-  max-width: 150%;
+  max-width: 100%;
   height: auto;
 }
-.Inicio .vct-mobile img {
-  width: 105%;
-  margin-right: 80px;
-  margin-bottom: 5px;
+.Inicio .vct-mobile iframe {
+  width: 100%;
+  height: 56.25vw;
+  /* Mantiene la proporción 16:9 */
 }
 
 /* Campeones */
@@ -616,34 +611,32 @@ header .inicio-sesion a:hover {
 }
 
 /* VCT REGIONES */
-.container-vct {
+.vct-container {
+  margin-top: 55px;
+  max-width: 100%;
+  height: auto;
+}
+.vct-container iframe {
+  width: 100%;
+  height: 56.25vw;
+  /* Mantiene la proporción 16:9 */
+}
+.vct-container .vct-fullscreen {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
+}
+.vct-container .vct-mobile {
+  width: 100%;
+  height: auto;
+  display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  align-items: center;
 }
-.container-vct .vct-fullscreen {
-  width: 100%;
-}
-.container-vct .vct-fullscreen img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
-.container-vct .vct-mobile {
-  width: 100%;
-}
-.container-vct .vct-mobile img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
-.container-vct .title-vct {
+.vct-container .title-vct {
   background-color: black;
   display: flex;
   align-items: center;
@@ -652,10 +645,9 @@ header .inicio-sesion a:hover {
   font-family: "Anton", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
-  padding: 10px;
 }
-.container-vct .title-vct .icon-vct {
-  width: 45px;
+.vct-container .title-vct .icon-vct {
+  width: 35px;
   height: auto;
   margin: 5px;
 }
@@ -879,19 +871,13 @@ footer a {
   }
 }
 /* Media query regiones */
-@media (min-width: 1200px) {
-  .container-vct {
-    max-width: 1140px;
-    /* Limitar el ancho en pantallas grandes */
-  }
-}
 @media only screen and (max-width: 770px) {
-  .vct-fullscreen {
+  .vct-fullscreen iframe {
     display: none;
   }
 }
 @media only screen and (min-width: 770px) {
-  .vct-mobile {
+  .vct-mobile iframe {
     display: none;
   }
 }

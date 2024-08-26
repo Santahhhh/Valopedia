@@ -1,20 +1,13 @@
 /* Media query regiones */
 
-@media (min-width: 1200px) {
-    .container-vct {
-        max-width: 1140px;
-        /* Limitar el ancho en pantallas grandes */
-    }
-}
-
 @media only screen and (max-width: 770px) {
-    .vct-fullscreen {
+    .vct-fullscreen iframe {
         display: none
     }
 }
 
 @media only screen and (min-width: 770px) {
-    .vct-mobile {
+    .vct-mobile iframe {
         display: none;
     }
 }
