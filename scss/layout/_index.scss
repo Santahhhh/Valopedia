@@ -8,7 +8,8 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    max-width: 1400px;
+    max-width: 100%;
+    height: auto;
 
     .title {
         font-family: $font-principal;
@@ -54,32 +55,5 @@
             color: #D74646;
             display: inline;
         }
-    }
-
-    .vct {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        margin-left: 500px;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .vct-mobile {
-
-        iframe {
-            width: 100%;
-            height: calc(100vw * (9/16));
-            /* Mantiene la proporción 16:9 */
-        }
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        height: auto;
-
     }
 }
