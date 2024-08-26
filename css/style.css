@@ -75,7 +75,8 @@ header .inicio-sesion a:hover {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  max-width: 1400px;
+  max-width: 100%;
+  height: auto;
 }
 .Inicio .title {
   font-family: "Anton", sans-serif;
@@ -113,27 +114,6 @@ header .inicio-sesion a:hover {
 .Inicio #fechas #title-fechas strong {
   color: #D74646;
   display: inline;
-}
-.Inicio .vct {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  margin-left: 500px;
-  max-width: 100%;
-  height: auto;
-}
-.Inicio .vct-mobile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  height: auto;
-}
-.Inicio .vct-mobile iframe {
-  width: 100%;
-  height: 56.25vw;
-  /* Mantiene la proporción 16:9 */
 }
 
 /* Campeones */
@@ -219,6 +199,12 @@ header .inicio-sesion a:hover {
 .Jugadores-destacados {
   text-align: left;
   margin-bottom: 20px;
+  background-color: #2F3337;
+  padding: 15px;
+  /* Shadow */
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.25);
 }
 .Jugadores-destacados h1 {
   font-family: "Anton", sans-serif;
@@ -850,17 +836,6 @@ footer a {
 }
 @media only screen and (max-width: 991px) {
   .desktop-only {
-    display: none;
-  }
-}
-/* Media query index */
-@media only screen and (max-width: 770px) {
-  .vct img {
-    display: none;
-  }
-}
-@media only screen and (min-width: 770px) {
-  .vct-mobile img {
     display: none;
   }
 }
