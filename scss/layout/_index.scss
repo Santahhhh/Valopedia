@@ -28,6 +28,7 @@
         img {
             width: 30px;
             display: inline;
+            margin-bottom: 10px;
         }
 
         ol {
@@ -49,10 +50,9 @@
             }
         }
 
-        #title-fechas {
-            color: brown;
+        #title-fechas strong {
+            color: #D74646;
             display: inline;
-            margin: 5px;
         }
     }
 

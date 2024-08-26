@@ -42,6 +42,10 @@ header {
 
     .inicio-sesion a {
         @include boton-inicio-sesion;
-    }
 
+        &:hover {
+            background: rgb(232, 74, 74);
+            background: linear-gradient(180deg, rgba(232, 74, 74, 1) 0%, rgba(235, 67, 67, 1) 100%);
+        }
+    }
 }

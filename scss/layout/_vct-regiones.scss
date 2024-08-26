@@ -3,44 +3,39 @@
 
 /* VCT REGIONES */
 
-.vct-fullscreen {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    margin-left: 500px;
-    max-width: 100%;
-    height: auto;
 
-    img {
-        margin-bottom: 15px;
+.container-vct {
+    flex: 1;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+
+
+    .vct-fullscreen {
         width: 100%;
-        margin-right: 500px;
+        height: auto;
     }
-}
 
-.vct-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-    max-width: 150%;
-    height: auto;
-
-    img {
-        width: 105%;
-        margin-right: 80px;
-        margin-bottom: 5px;
+    .vct-mobile {
+        width: 100%;
+        height: auto;
     }
-}
 
-.title-vct {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #5ABBD3 solid 1px;
-    font-family: $font-principal;
-    font-weight: bold;
-    color: $primary-color;
+
+    .title-vct {
+        background-color: black;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: #DC2F2F solid 1px;
+        font-family: $font-principal;
+        font-weight: bold;
+        color: $primary-color;
+
+        .icon-vct {
+            width: 45px;
+            height: auto;
+            margin: 5px;
+        }
+    }
 }
